@@ -113,7 +113,7 @@ function App() {
         <div {...getCollapseProps()}>
           <div className="content">
             <br />
-            <form action="" className="f">
+            <form action="" className="f" onSubmit={saveUser}>
               <label htmlFor="">
                 NAME{" "}
                 <input
